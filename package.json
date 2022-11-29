@@ -9,17 +9,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "formik": "^2.2.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
     "react-router-dom": "^6.4.3",
     "recharts": "^2.1.16",
-    "remixicons": "^1.0.0"
+    "remixicons": "^1.0.0",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",
+    "prettier": "2.8.0",
+    "sass": "^1.56.1",
     "vite": "^3.2.3"
   }
 }

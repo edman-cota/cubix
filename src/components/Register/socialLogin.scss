@@ -1,0 +1,13 @@
+.social-login__wrapper {
+  li {
+    :hover {
+      cursor: pointer;
+    }
+
+    button {
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+    }
+  }
+}

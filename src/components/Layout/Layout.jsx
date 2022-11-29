@@ -1,20 +1,20 @@
-import React from "react";
-import Router from "../../routes/Router";
-import Sidebar from "../Sidebar/Sidebar";
-import TopNav from "../TopNav/TopNav";
+import React from 'react'
+import Router from '../../routes/root'
+import Sidebar from '../Sidebar/Sidebar'
+import TopNav from '../TopNav/TopNav'
 
 const Layout = () => {
   return (
-    <div className="layout">
+    <div className='layout'>
       <Sidebar />
-      <div className="main__layout">
+      <div className='main__layout'>
         <TopNav />
-        <div className="content">
+        <div className='content'>
           <Router />
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout
